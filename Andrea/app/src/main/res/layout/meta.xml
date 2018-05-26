@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorfondo"
+    android:duplicateParentState="false"
+    android:fadeScrollbars="true">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="97dp"
+        android:layout_height="92dp"
+        android:background="@drawable/circuloparaiconos"
+        app:srcCompat="@drawable/trophy"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pasos Logrados"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="el dia de hoy"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meta del día"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="30sp" />
+
+        <com.dpro.widgets.WeekdaysPicker
+            android:id="@+id/weekdays"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/azulboton1"
+            android:gravity="center_horizontal"
+            app:highlight_color="@color/colorPrimary"
+            tools:text_color="@color/blanco"
+            android:layout_marginLeft="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="418dp"
+        android:layout_height="51dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="395dp">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="353dp"
+        android:layout_height="45dp"
+        android:background="@color/azulboton1"
+        android:text="Agregar Nueva Meta"
+        android:textColor="@color/blanco"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="456dp" />
+</android.support.constraint.ConstraintLayout>

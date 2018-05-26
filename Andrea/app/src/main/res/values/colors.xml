@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00a83f</color>
+    <color name="colorPrimaryDark">#00873A</color>
+    <color name="colorAccent">#00AEC4</color>
+    <color name="colorfondo">#00A83F</color>
+    <color name="recuadros">#00AEC4</color>
+    <color name="blanco">#ffffff</color>
+    <color name="azulboton1">#0096c4</color>
+    <color name="verdebotones">#009688</color>
+</resources>

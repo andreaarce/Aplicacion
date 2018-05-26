@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorfondo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circuloparaiconos"
+        app:srcCompat="@drawable/gota"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registros de Salud"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorfondo"
+        android:text="Azucar                                                                          >"
+        android:textColor="@color/blanco" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorfondo"
+        android:text="Peso                                                                               >"
+        android:textColor="@color/blanco" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorfondo"
+        android:text="Cicunferencia Abdoinal                                      >"
+        android:textColor="@color/blanco" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorfondo"
+        android:text="Frecuencia Cardiaca                                             >"
+        android:textColor="@color/blanco" />
+
+
+</LinearLayout>

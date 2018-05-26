@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yknx4.andrea.Frag3"
+
+    android:background="@color/colorfondo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+             <LinearLayout
+
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 >
+
+
+            <RelativeLayout
+                android:id="@+id/Fondocardview"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/verdebotones">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/contenido"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_below="@+id/Fondocardview"
+                >
+
+                <TextView
+                    android:id="@+id/Titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medite Cuenta"
+                    />
+
+                <TextView
+                    android:id="@+id/descripcion"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi est, porta eu justo non, laoreet malesuada nisl. "
+                    android:layout_below="@+id/Titulo"/>
+
+
+
+            </RelativeLayout>
+
+             </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/Fondocardview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/verdebotones">
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/contenido1"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_below="@+id/Fondocardview"
+                    >
+
+                    <TextView
+                        android:id="@+id/Titulo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Medite Cuenta"
+                        />
+
+                    <TextView
+                        android:id="@+id/descripcion1"
+                        android:padding="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi est, porta eu justo non, laoreet malesuada nisl. "
+                        android:layout_below="@+id/Titulo1"/>
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <RelativeLayout
+                        android:id="@+id/Fondocardview2"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@color/verdebotones">
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/contenido2"
+                        android:padding="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_below="@+id/Fondocardview"
+                        >
+
+                        <TextView
+                            android:id="@+id/Titulo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Medite Cuenta"
+                            />
+
+                        <TextView
+                            android:id="@+id/descripcion2"
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi est, porta eu justo non, laoreet malesuada nisl. "
+                            android:layout_below="@+id/Titulo2"/>
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>
